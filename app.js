@@ -1,5 +1,5 @@
 'use-strict'
-
+require('dotenv').load()
 var express       = require('express')
 var bodyParser    = require('body-parser')
 var sessions      = require('express-session')
